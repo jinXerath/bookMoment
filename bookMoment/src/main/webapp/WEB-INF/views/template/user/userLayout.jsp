@@ -17,13 +17,21 @@
 		<!--[if lt IE 9]>
 		<script src="../js/html5shiv.js"></script>
 		<![endif]-->
+	<!-- ########## CSS ################## -->	
 		<!-- BootStrap Core CSS Files -->
 		<link href="/resources/include/bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet"/>
 		<!-- user-common CSS File  -->
 		<link href="/resources/include/css/user/user-common.css" rel="stylesheet"/>
 		
-		<!-- Vendor JS Files -->
-		<script src="/resources/include/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>		
+	<!-- ########## Java Script ########## -->	
+		<!-- jQuery -->
+		<script src="/resources/include/js/jquery-3.7.1.min.js" type="text/javascript"></script>		
+		<!-- BootStrap Core JS Files -->
+		<script src="/resources/include/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+		<!-- fontawesome -->
+		<script src="/resources/include/js/fontawesome-all.js" type="text/javascript"></script>				
+ 		<!-- common.js -->
+        <script src="/resources/include/js/common.js" type="text/javascript"></script>		
 	</head>
    <body> 
       <tiles:insertAttribute name="header" />
